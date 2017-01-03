@@ -1,0 +1,30 @@
+<!--个人中心-->
+
+<view class="cell" bindtap="taplogin">
+    <image src="../../images/other/setup-head-default.png" mode="aspectFit"></image>
+    <text >登录/注册</text>
+    
+    <text class="right_arrow">></text>
+</view>
+
+<view class="cell">
+<contact-button/>
+    <text>离线下载</text>
+    <text class="right_arrow">></text>
+</view>
+<view class="section tc">
+  <video id="myVideo" src="http://wvideo.spriteapp.cn/video/2016/1224/614f1098-c990-11e6-b14c-d4ae5296039dcut_wpd.mp4"   enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <input bindblur="bindInputBlur"/>
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>
+<!--
+<view style="background-color:white">
+    <view class="menu_item" wx:for="{{dataList}}" wx:for-item="item">
+        <image src="{{item.icon}}" mode="aspectFit"></image>
+        <text>{{item.name}}</text>
+    </view>
+</view>
+-->
+<view style="height:20rpx;"></view>
